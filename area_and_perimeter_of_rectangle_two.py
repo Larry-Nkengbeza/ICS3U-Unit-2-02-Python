@@ -6,12 +6,10 @@
 # with a radius of 15mm
 
 def main():
-    print("Area is {}cm^2".format(7*1))
-    print("perimeter is{}cm^2".format(2*(2+1)))
-    print("Area is {}cm^2".format(4*5))
-    print("Perimeter is {}cm^2".format(2*(7+8)))
-    print("Area is {}cm^2".format(8*2))
-    print("Perimeter is {}cm^2".format(2*(2+9)))
+    print("Enter Length of the rectangle:(8cm)")
+    print("Enter Width of the rectangle:(2mm)")
+    print("Area is {}mm²".format(8*2))
+    print("perimeter is {}mm".format(2*(8+2)))
 
 
 if __name__ == "__main__":
